@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build",
+    "site":"my-portfolio-8930e",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
