@@ -738,18 +738,18 @@ code {
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
   }
-  
+
   /* typing animation */
   @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
   }
-  
+
   /* blinking cursor */
   @keyframes blink {
     50% { border-color: transparent; }
   }
-  
+
 
 .home__subtitle::before {
     content: '';
@@ -902,7 +902,7 @@ code {
 
   /* For small devices */
 
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 440px) {
     .home__img{
         width: 180px;
         height: 180px;
@@ -1524,5 +1524,3 @@ code {
         column-gap: 0.25rem;
     }
  }
-
-
